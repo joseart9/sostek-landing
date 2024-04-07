@@ -1,5 +1,4 @@
 "use client";
-import { Link } from 'react-router-dom';
 
 
 interface NavbarProps {
@@ -24,7 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({
                     <div className="flex-none hidden lg:block">
                         <ul className="menu menu-horizontal">
                             {/* Navbar menu content here */}
-                            <li><Link to="/nosotros">Nosotros</Link></li>
+                            <li><a>Nosotros</a></li>
                             <li><a>Herramientas</a></li>
                             <li><a>Recursos</a></li>
                             <li><a>Contacto</a></li>
