@@ -1,28 +1,36 @@
+// PeopleCard.tsx
 import React from 'react';
 import './PeopleCard.css';
 
-interface PeopleCardProps {
-    name?: string;
-    role?: string;
-    img?: string;
+interface Person {
+    name: string;
+    role: string;
+    img: string;
+    description: string;
 }
 
-const PeopleCard: React.FC<PeopleCardProps> = ({
-    name,
-    role,
-    img,
-}) => {
+interface PeopleCardProps {
+    people: Person[];
+}
+
+const PeopleCard: React.FC<PeopleCardProps> = ({ people }) => {
     return (
-        <div className="card">
-            <figure>
-                <img src={img} alt="img" />
-            </figure>
-            <div className="card-body">
-                <h2>{name}</h2>
-                <p>{role}</p>
-            </div>
+        <div className="flex flex-wrap justify-center gap-4">
+            {people.map((person, index) => (
+                <div key={index} className="card">
+                    <figure>
+                        <img src={person.img} alt="img" />
+                    </figure>
+                    <div className="card-body">
+                        <h2>{person.name}</h2>
+                        <p>{person.role}</p>
+                        <p>{person.description}</p>
+                    </div>
+                </div>
+            ))}
         </div>
     )
 }
 
 export default PeopleCard;
+
