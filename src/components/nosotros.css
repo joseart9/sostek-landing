@@ -1,0 +1,15 @@
+/* Nosotros.css */
+.bloque {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #6d97c7;
+    border-radius: 0.25rem;
+  }
+  
