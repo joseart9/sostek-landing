@@ -1,21 +1,33 @@
 const Nosotros = () => {
   return (
     <div className="flex flex-col items-center">
-      <img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Frecla.org%2Fblog%2Fsostenibilidad-social%2F&psig=AOvVaw3qsXxRMwN-u5vTfypyDTj6&ust=1712541094625000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCxg-v_roUDFQAAAAAdAAAAABAE" alt="Imagen de encabezado" className="w-full" />
+      <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" alt="Imagen de encabezado" className="w-full" />
       <div className="flex justify-center w-full py-4 gap-4">
         <div className="block">
           <h2 className="text-xl font-bold">Bloque 1</h2>
-          <p>Subtítulo del bloque 1...</p>
+          <p>¿Cómo nace Sostek?</p>
+          <p>Este proyecto surge de un interés por generar una cultura de sostenibilidad a través de la educación.
+             Una previa etapa de investigación, nos permitió detectar áreas de oportunidades en los planes educativos
+             de las diversas carreras involucradas.
+             Combinando esfuerzos de educadores y estudiantes generamos la primera versión de SOSTEK, una plataforma digital
+             que se alimentaría de los contenidos y requerimientos en temas de sostenibilidad, presentes en los proyectos
+              desarrollados en nuestra facultad.</p>
           <textarea rows={4} cols={50}></textarea>
         </div>
         <div className="block">
           <h2 className="text-xl font-bold">Bloque 2</h2>
-          <p>Subtítulo del bloque 2...</p>
+          <p>Iniciativa NOVUS</p>
+          <p>NOVUS es una iniciativa del Tecnológico de Monterrey que apoya al desarrollo de ideas innovadoras a través
+             de proyectos prácticos y de investigación. El propósito de NOVUS es fomentar la participación estudiantil en
+             la implementación de medidas de mejora en el contenido educativo de sus respectivas facultades.  </p>
           <textarea rows={4} cols={50}></textarea>
         </div>
         <div className="block">
           <h2 className="text-xl font-bold">Bloque 3</h2>
-          <p>Subtítulo del bloque 3...</p>
+          <p>¿Quiénes somos?</p>
+          <p>Somos un equipo de educadores y alumnos interesados en el desarrollo de estrategias encaminadas a una mayor
+             comprensión del alcance de los proyectos académicos como respuesta a las necesidades culturales, económicas
+             y ambientales de la sociedad. </p>
           <textarea rows={4} cols={50}></textarea>
         </div>
       </div>
@@ -24,4 +36,5 @@ const Nosotros = () => {
 }
 
 export default Nosotros;
+
 
