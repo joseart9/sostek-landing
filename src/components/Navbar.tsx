@@ -1,5 +1,6 @@
 "use client";
 
+
 interface NavbarProps {
     children: React.ReactNode;
 }
